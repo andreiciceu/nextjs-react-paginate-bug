@@ -1,0 +1,23 @@
+.root {
+  @apply flex w-full justify-center mt-4;
+}
+.container {
+  @apply flex items-center;
+}
+
+.page {
+  @apply py-1 px-2 rounded-full;
+  @apply hover:bg-red-300 hover:text-amber-900;
+}
+.page.active {
+  @apply text-green-500;
+}
+
+.arrow {
+  @apply flex justify-center;
+  @apply p-1 mx-4 rounded-full;
+  @apply bg-cyan-300 text-yellow-300;
+}
+.arrow.disabled {
+  @apply bg-yellow-50;
+}
